@@ -6,7 +6,7 @@
 
 | 内容 | 固定版本 / 来源 |
 | --- | --- |
-| 管理脚本 | `kjxv/Xray` 的 `tutorial-v1.35` 标签，原脚本版本 `v1.35` |
+| 管理脚本 | `kjxv-1/Xray` 的 `tutorial-v1.35` 标签，原脚本版本 `v1.35` |
 | Xray 内核 | `XTLS/Xray-core` 的 `v26.3.27` |
 | Caddy（添加 TLS 协议时安装） | `caddyserver/caddy` 的 `v2.11.7` |
 | jq（系统未安装时下载） | `jqlang/jq` 的 `jq-1.7.1` |
@@ -23,13 +23,13 @@
 在 Linux 服务器以 root 身份执行：
 
 ```bash
-curl -fL https://raw.githubusercontent.com/kjxv/Xray/tutorial-v1.35/install.sh -o /tmp/xray-tutorial-install.sh && bash /tmp/xray-tutorial-install.sh
+curl -fL https://raw.githubusercontent.com/kjxv-1/Xray/tutorial-v1.35/install.sh -o /tmp/xray-tutorial-install.sh && bash /tmp/xray-tutorial-install.sh
 ```
 
 没有 curl 时使用 wget：
 
 ```bash
-wget -O /tmp/xray-tutorial-install.sh https://raw.githubusercontent.com/kjxv/Xray/tutorial-v1.35/install.sh && bash /tmp/xray-tutorial-install.sh
+wget -O /tmp/xray-tutorial-install.sh https://raw.githubusercontent.com/kjxv-1/Xray/tutorial-v1.35/install.sh && bash /tmp/xray-tutorial-install.sh
 ```
 
 已经克隆本仓库并切换到教程标签时，也可以在仓库目录运行：
@@ -177,8 +177,8 @@ Usage: xray [options]... [args]...
    h, help                                         显示此帮助界面
 
 谨慎使用 del, ddel, 此选项会直接删除配置; 无需确认
-反馈问题) https://github.com/kjxv/Xray/issues
-教程文档) https://github.com/kjxv/Xray/blob/tutorial-v1.35/README.md
+反馈问题) https://github.com/kjxv-1/Xray/issues
+教程文档) https://github.com/kjxv-1/Xray/blob/tutorial-v1.35/README.md
 原作者文档) https://233boy.com/xray/xray-script/
 ```
 

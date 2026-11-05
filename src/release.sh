@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 视频教程的固定版本。发布新教程时使用新标签，不要移动旧标签。
-is_sh_repo=kjxv/Xray
+is_sh_repo=kjxv-1/Xray
 is_sh_ref=tutorial-v1.35
 is_core_default_ver=v26.3.27
 is_caddy_default_ver=v2.11.7

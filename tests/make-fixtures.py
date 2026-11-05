@@ -19,7 +19,7 @@ for variant in ("script", "missing", "wrong-repo", "syntax-error"):
                 continue
             content = path.read_bytes()
             if variant == "wrong-repo" and relative == "src/release.sh":
-                content = content.replace(b"is_sh_repo=kjxv/Xray", b"is_sh_repo=other/Xray")
+                content = content.replace(b"is_sh_repo=kjxv-1/Xray", b"is_sh_repo=other/Xray")
             if variant == "syntax-error" and relative == "xray.sh":
                 content += b"\nif\n"
             archive.writestr(f"Xray-tutorial-v1.35/{relative}", content)

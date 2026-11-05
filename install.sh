@@ -3,7 +3,7 @@
 author=233boy
 # 原项目: https://github.com/233boy/Xray
 # 此处是独立安装器的引导地址，必须与 src/release.sh 一致。
-is_sh_repo=kjxv/Xray
+is_sh_repo=kjxv-1/Xray
 is_sh_ref=tutorial-v1.35
 
 # bash fonts colors
